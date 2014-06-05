@@ -4,7 +4,7 @@
  * main.c
  */
 int main(void) {
-    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
+    WDTCTL = WDTPW | WDTHOLD;   // Stop watchdog timer
     P2DIR = 0xFF;
 
     P2SEL = 0x00;
@@ -33,5 +33,5 @@ int main(void) {
     }
 
 
-	return 0;
+    return 0;
 }
